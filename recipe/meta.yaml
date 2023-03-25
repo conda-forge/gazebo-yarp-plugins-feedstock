@@ -80,7 +80,7 @@ outputs:
       {% endfor %}
 
 
-  - name: gazebo-yarp-plugns
+  - name: {{ plugin_name }}
     requirements:
       run:
         - {{ pin_subpackage(cxx_name, exact=True) }}
