@@ -34,6 +34,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18941&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gazebo-yarp-plugins-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18941&branchName=main">
@@ -53,7 +60,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libgazebo--yarp--plugins-green.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gazebo--yarp--plugins-green.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) |
 
 Installing gazebo-yarp-plugins
 ==============================
@@ -65,41 +72,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `libgazebo-yarp-plugins` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `gazebo-yarp-plugins` can be installed with `conda`:
 
 ```
-conda install libgazebo-yarp-plugins
-```
-
-or with `mamba`:
-
-```
-mamba install libgazebo-yarp-plugins
-```
-
-It is possible to list all of the versions of `libgazebo-yarp-plugins` available on your platform with `conda`:
-
-```
-conda search libgazebo-yarp-plugins --channel conda-forge
+conda install gazebo-yarp-plugins
 ```
 
 or with `mamba`:
 
 ```
-mamba search libgazebo-yarp-plugins --channel conda-forge
+mamba install gazebo-yarp-plugins
+```
+
+It is possible to list all of the versions of `gazebo-yarp-plugins` available on your platform with `conda`:
+
+```
+conda search gazebo-yarp-plugins --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search gazebo-yarp-plugins --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search libgazebo-yarp-plugins --channel conda-forge
+mamba repoquery search gazebo-yarp-plugins --channel conda-forge
 
-# List packages depending on `libgazebo-yarp-plugins`:
-mamba repoquery whoneeds libgazebo-yarp-plugins --channel conda-forge
+# List packages depending on `gazebo-yarp-plugins`:
+mamba repoquery whoneeds gazebo-yarp-plugins --channel conda-forge
 
-# List dependencies of `libgazebo-yarp-plugins`:
-mamba repoquery depends libgazebo-yarp-plugins --channel conda-forge
+# List dependencies of `gazebo-yarp-plugins`:
+mamba repoquery depends gazebo-yarp-plugins --channel conda-forge
 ```
 
 
