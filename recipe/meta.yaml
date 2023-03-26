@@ -20,7 +20,7 @@ outputs:
     script: bld_cxx.bat  # [win]
     build:
       run_exports:
-        - {{ pin_subpackage(name, max_pin='x') }}
+        - {{ pin_subpackage(cxx_name, max_pin='x') }}
       # See https://github.com/conda-forge/staged-recipes/pull/21891#issuecomment-1446115361
       missing_dso_whitelist:  # [win]
         - '*/CameraPlugin.dll'  # [win]
