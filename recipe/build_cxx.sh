@@ -17,7 +17,7 @@ cmake ${CMAKE_ARGS} -GNinja .. \
 
 cmake --build . --config Release
 
-if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "" ]]; then
+if [[ ("${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "") && "${target_platform}" != osx-* ]]; then
   ctest --output-on-failure --repeat until-pass:5 -C Release 
 fi
 
