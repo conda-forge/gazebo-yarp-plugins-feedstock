@@ -61,6 +61,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-gazebo--yarp--plugins-green.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/gazebo-yarp-plugins) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libgazebo--yarp--plugins-green.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgazebo-yarp-plugins.svg)](https://anaconda.org/conda-forge/libgazebo-yarp-plugins) |
 
 Installing gazebo-yarp-plugins
 ==============================
@@ -72,16 +73,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `gazebo-yarp-plugins` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `gazebo-yarp-plugins, libgazebo-yarp-plugins` can be installed with `conda`:
 
 ```
-conda install gazebo-yarp-plugins
+conda install gazebo-yarp-plugins libgazebo-yarp-plugins
 ```
 
 or with `mamba`:
 
 ```
-mamba install gazebo-yarp-plugins
+mamba install gazebo-yarp-plugins libgazebo-yarp-plugins
 ```
 
 It is possible to list all of the versions of `gazebo-yarp-plugins` available on your platform with `conda`:
