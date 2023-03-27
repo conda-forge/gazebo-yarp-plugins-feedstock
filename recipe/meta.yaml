@@ -1,4 +1,4 @@
-{% set cxx_name = "gazebo-yarp-plugins" %}
+{% set cxx_name = "libgazebo-yarp-plugins" %}
 {% set plugin_name = "gazebo-yarp-plugins" %}
 {% set name = "gazebo-yarp-plugins-split" %}
 {% set version = "4.6.0" %}
@@ -12,7 +12,7 @@ source:
     sha256: 26e4f26ca5799f445bef9ad5ef307da4b180bebe593a1c925246598eb61b8521
 
 build:
-  number: 1
+  number: 2
   
 outputs:
   - name: {{ cxx_name }}
