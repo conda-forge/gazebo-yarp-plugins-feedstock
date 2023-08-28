@@ -15,9 +15,9 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 libopencv:
-- 4.7.0
+- 4.8.0
 libprotobuf:
-- '3.21'
+- 4.23.3
 target_platform:
 - linux-64
 tbb_devel:

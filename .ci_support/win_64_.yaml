@@ -7,9 +7,9 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libopencv:
-- 4.7.0
+- 4.8.0
 libprotobuf:
-- '3.21'
+- 4.23.3
 target_platform:
 - win-64
 tbb_devel:
