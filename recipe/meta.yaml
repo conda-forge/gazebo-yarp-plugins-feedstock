@@ -41,6 +41,7 @@ outputs:
         - libignition-math6
         - libprotobuf
         - tbb-devel
+        - assimp
         - libopencv
         - ogre 1.10.*
       run:
