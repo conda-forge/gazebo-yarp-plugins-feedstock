@@ -11,7 +11,9 @@ cxx_compiler:
 libopencv:
 - 4.9.0
 libprotobuf:
-- 4.25.2
+- 4.25.3
+libyarp:
+- 3.9.0
 target_platform:
 - win-64
 tbb_devel:

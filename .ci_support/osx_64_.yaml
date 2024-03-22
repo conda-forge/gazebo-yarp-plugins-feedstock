@@ -17,7 +17,9 @@ cxx_compiler_version:
 libopencv:
 - 4.9.0
 libprotobuf:
-- 4.25.2
+- 4.25.3
+libyarp:
+- 3.9.0
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
