@@ -21,7 +21,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '16'
 libopencv:
-- 4.9.0
+- 4.10.0
 libprotobuf:
 - 4.25.3
 libyarp:
