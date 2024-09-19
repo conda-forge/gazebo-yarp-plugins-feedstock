@@ -35,6 +35,8 @@ outputs:
         - pkg-config
         - ninja
         - multisheller
+        # The project use yarpidl_thrift, so in cross-compilation we need it
+        - libyarp  # [build_platform != target_platform]
       host:
         - libyarp
         - gazebo
