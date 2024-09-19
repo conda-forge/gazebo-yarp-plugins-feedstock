@@ -47,6 +47,8 @@ outputs:
         - assimp
         - libopencv
         - ogre 1.10.*
+        # Transitive public dependency of gazebo
+        - dartsim-cpp
       run:
 
     test:
