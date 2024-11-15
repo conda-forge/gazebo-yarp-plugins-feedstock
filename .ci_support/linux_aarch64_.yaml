@@ -13,7 +13,7 @@ c_stdlib_version:
 cdt_arch:
 - aarch64
 cdt_name:
-- cos7
+- conda
 channel_sources:
 - conda-forge
 channel_targets:
@@ -27,7 +27,7 @@ docker_image:
 libopencv:
 - 4.10.0
 libprotobuf:
-- 5.27.5
+- 5.28.2
 libyarp:
 - 3.9.0
 target_platform:
@@ -37,5 +37,3 @@ tbb_devel:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
-- - c_stdlib_version
-  - cdt_name
