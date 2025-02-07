@@ -10,10 +10,12 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2019
+dartsim_cpp:
+- '6.15'
 libopencv:
 - 4.10.0
 libprotobuf:
-- 5.28.2
+- 5.28.3
 libyarp:
 - 3.10.1
 target_platform:
