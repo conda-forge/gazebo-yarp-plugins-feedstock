@@ -13,7 +13,7 @@ cxx_compiler:
 dartsim_cpp:
 - '6.15'
 libopencv:
-- 4.10.0
+- 4.11.0
 libprotobuf:
 - 5.28.3
 libyarp:
