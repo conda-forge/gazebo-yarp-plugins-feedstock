@@ -27,7 +27,7 @@ libopencv:
 libprotobuf:
 - 5.28.3
 libyarp:
-- 3.11.1
+- 3.11.2
 target_platform:
 - linux-aarch64
 tbb_devel:
