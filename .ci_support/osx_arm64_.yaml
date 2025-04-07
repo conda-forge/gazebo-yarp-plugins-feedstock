@@ -25,7 +25,7 @@ dartsim_cpp:
 libopencv:
 - 4.11.0
 libprotobuf:
-- 5.28.3
+- 5.29.3
 libyarp:
 - 3.11.2
 macos_machine:
