@@ -1,7 +1,7 @@
 {% set cxx_name = "libgazebo-yarp-plugins" %}
 {% set plugin_name = "gazebo-yarp-plugins" %}
 {% set name = "gazebo-yarp-plugins-split" %}
-{% set version = "4.12.1" %}
+{% set version = "4.12.2" %}
 
 package:
   name: {{ name }}
@@ -9,10 +9,10 @@ package:
 
 source:
   - url: https://github.com/robotology/gazebo-yarp-plugins/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: 782880de554424289a81d4ee3e58b657812c43db466721baec4784ae4090b60d
+    sha256: b786cf85afb9d069a77ddf1154358f5ce7d1086b8f0a5f1babef8baf535a6b49
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: {{ cxx_name }}
