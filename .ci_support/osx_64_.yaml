@@ -27,7 +27,7 @@ libopencv:
 libprotobuf:
 - 5.29.3
 libyarp:
-- 3.11.2
+- 3.12.0
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
