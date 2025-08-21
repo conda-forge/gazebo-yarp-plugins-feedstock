@@ -12,7 +12,7 @@ source:
     sha256: b786cf85afb9d069a77ddf1154358f5ce7d1086b8f0a5f1babef8baf535a6b49
 
 build:
-  number: 1
+  number: 2
 
 outputs:
   - name: {{ cxx_name }}
@@ -43,12 +43,14 @@ outputs:
         - libsdformat 9.*
         - libignition-math6
         - libprotobuf
+        # Avoid overlinking errors, see https://github.com/conda-forge/gazebo-yarp-plugins-feedstock/pull/48#issuecomment-3210418117
+        - libabseil 
+        - libignition-common3
+        - libignition-transport8
+        - libignition-msgs5
         - tbb-devel
         - assimp
         - libopencv
-        # Temporary workaround to avoid to update to vs2022, 
-        # see https://github.com/conda-forge/yarp-feedstock/pull/70#issuecomment-2910021339
-        - libopencv 4.11.0=*_6
         - ogre 1.10.*
         # Transitive public dependency of gazebo
         - dartsim-cpp
