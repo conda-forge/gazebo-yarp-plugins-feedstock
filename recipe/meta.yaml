@@ -46,9 +46,6 @@ outputs:
         - tbb-devel
         - assimp
         - libopencv
-        # Temporary workaround to avoid to update to vs2022, 
-        # see https://github.com/conda-forge/yarp-feedstock/pull/70#issuecomment-2910021339
-        - libopencv 4.11.0=*_6
         - ogre 1.10.*
         # Transitive public dependency of gazebo
         - dartsim-cpp
