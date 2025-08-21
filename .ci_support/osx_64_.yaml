@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.15'
+- '11.0'
 MACOSX_SDK_VERSION:
-- '10.15'
+- '11.0'
 assimp:
 - 5.4.3
 c_compiler:
@@ -11,7 +11,7 @@ c_compiler_version:
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
-- '10.15'
+- '11.0'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -22,10 +22,12 @@ cxx_compiler_version:
 - '19'
 dartsim_cpp:
 - '6.15'
+libabseil:
+- '20250512'
 libopencv:
 - 4.12.0
 libprotobuf:
-- 5.29.3
+- 6.31.1
 libyarp:
 - 3.12.0
 macos_machine:
