@@ -43,6 +43,11 @@ outputs:
         - libsdformat 9.*
         - libignition-math6
         - libprotobuf
+        # Avoid overlinking errors, see https://github.com/conda-forge/gazebo-yarp-plugins-feedstock/pull/48#issuecomment-3210418117
+        - libabseil 
+        - libignition-common3
+        - libignition-transport8
+        - libignition-msgs5
         - tbb-devel
         - assimp
         - libopencv
