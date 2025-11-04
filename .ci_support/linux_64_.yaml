@@ -8,8 +8,6 @@ c_stdlib:
 - sysroot
 c_stdlib_version:
 - '2.17'
-cdt_name:
-- conda
 channel_sources:
 - conda-forge
 channel_targets:
@@ -29,7 +27,7 @@ libopencv:
 libprotobuf:
 - 6.31.1
 libyarp:
-- 3.12.0
+- 3.12.1
 target_platform:
 - linux-64
 tbb_devel:
