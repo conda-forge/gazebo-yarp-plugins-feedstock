@@ -11,7 +11,7 @@ channel_targets:
 cxx_compiler:
 - vs2022
 dartsim_cpp:
-- '6.15'
+- '6.16'
 libabseil:
 - '20250512'
 libopencv:
