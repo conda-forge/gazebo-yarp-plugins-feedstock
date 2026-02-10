@@ -15,7 +15,7 @@ dartsim_cpp:
 libabseil:
 - '20250512'
 libopencv:
-- 4.12.0
+- 4.13.0
 libprotobuf:
 - 6.31.1
 libyarp:
