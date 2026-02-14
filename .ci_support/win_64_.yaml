@@ -13,11 +13,11 @@ cxx_compiler:
 dartsim_cpp:
 - '6.16'
 libabseil:
-- '20250512'
+- '20260107'
 libopencv:
 - 4.12.0
 libprotobuf:
-- 6.31.1
+- 6.33.5
 libyarp:
 - 3.12.2
 target_platform:
