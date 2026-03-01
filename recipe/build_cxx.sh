@@ -13,10 +13,14 @@ if [[ "${CONDA_BUILD_CROSS_COMPILATION}" == "1" ]]; then
   export CMAKE_ARGS="${CMAKE_ARGS} -DYARPIDL_thrift_LOCATION=$BUILD_PREFIX/bin/yarpidl_thrift"
 fi
 
+# Assimp variable is explicitly set to workaround cross-compilation problems
 cmake ${CMAKE_ARGS} -GNinja .. \
       -DCMAKE_BUILD_TYPE=Release \
       -DBUILD_SHARED_LIBS:BOOL=ON \
       -DBUILD_TESTING:BOOL=ON \
+      -DASSIMP_VERSION_MAJOR=6 \
+      -DASSIMP_VERSION_MINOR=0 \
+      -DASSIMP_VERSION_REVISION=3 \
       ..
 
 cmake --build . --config Release
