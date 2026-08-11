@@ -1,5 +1,5 @@
 assimp:
-- 6.0.3
+- '6'
 c_compiler:
 - vs2022
 c_stdlib:
@@ -11,16 +11,16 @@ channel_targets:
 cxx_compiler:
 - vs2022
 dartsim_cpp:
-- '6.16'
+- '6.19'
 libabseil:
-- '20260107'
+- '20260526'
 libopencv:
 - 4.13.0
 libprotobuf:
-- 6.33.5
+- 7.35.1
 libyarp:
 - 3.12.2
 target_platform:
 - win-64
 tbb_devel:
-- '2022'
+- '2023'
