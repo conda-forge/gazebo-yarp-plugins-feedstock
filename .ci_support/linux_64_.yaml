@@ -1,5 +1,5 @@
 assimp:
-- 6.0.3
+- '6'
 c_compiler:
 - gcc
 c_compiler_version:
@@ -17,13 +17,13 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 dartsim_cpp:
-- '6.16'
+- '6.19'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 libabseil:
 - '20260107'
 libopencv:
-- 4.13.0
+- 5.0.0
 libprotobuf:
 - 6.33.5
 libyarp:
@@ -31,7 +31,7 @@ libyarp:
 target_platform:
 - linux-64
 tbb_devel:
-- '2022'
+- '2023'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
